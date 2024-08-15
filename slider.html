@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{ background-color: rgba(27, 31, 34, 0.85);}
+         h1{font: 1em sans-serif;
+            font-size: 2.1rem;
+            line-height:1.4 ;
+            letter-spacing: 0.5rem;
+            text-align: center;
+            color: white;
+            margin-top: 50px;
+           } 
+           .maindiv{
+            width: 70%;
+            height: 400px; 
+            position: absolute;
+            transform: translate(-50%,-50%);
+            top: 50%;
+            left: 50%;
+            background-image: url('./image/pov.jpg');
+            background-size:100% 100% ;
+            box-shadow:1px 2px 10px 5px whitesmoke;
+            animation:slider 9s infinite linear ;
+           }
+
+           @keyframes slider{
+            0%{background-image: url('./image/pow.jpg');}
+            35%{background-image: url('./image/pom.jpg');}
+            75%{background-image: url('./image/poy.jpg');}
+           }
+
+    </style>
+</head>
+<body>
+    <h1> CSS ANIMATION SLIDER</h1>
+    <div class="maindiv"></div>
+    
+</body>
+</html>
+
+<div class="home__video__content"><div class="team__video__container"><iframe title="Chess in Slums teams and Volunteers" src="https://www.youtube.com/embed/9GXWCs3hsMA?vq=hd1080&amp;modestbranding=1&amp;showinfo=0&amp;rel=0&amp;autohide=0" width="560" height="315" frameborder="0"></iframe></div></div>
